@@ -114,4 +114,12 @@ export const navItems: SidebarItem[] = [
       },
     ],
   },
+  {
+    title: "Demo",
+    variant: "ghost",
+    url: "/demo",
+    name: "Demo",
+    level: 0,
+    items: [],
+  },
 ];

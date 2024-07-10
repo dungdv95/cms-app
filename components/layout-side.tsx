@@ -42,14 +42,14 @@ export default function LayoutSide({ children }: LayoutProps) {
         </div>
 
         <header className="bg-white shadow">
-          <div className="p-4">
-            <h1 className="text-xl font-bold tracking-tight text-gray-900">
+          <div className="p-3">
+            <h1 className="text-lg font-bold tracking-tight text-gray-900">
               Dashboard
             </h1>
           </div>
         </header>
 
-        <div className="px-4 py-3 flex-auto">{children}</div>
+        <div className="py-2 px-3 flex-auto">{children}</div>
       </div>
     </>
   );
